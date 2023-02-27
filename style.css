@@ -1,0 +1,87 @@
+body {
+    background: #d9788694;
+    color: white;
+    font-family: Courrier, monospace;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h1 {
+    color: #5e0f36;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    line-height: 30px;
+}
+.img-round {
+    border-radius: 50%;
+    size: 50px;
+}
+a{
+	text-decoration: none;
+	color: #731736;
+	font-weight: bolder;
+	transition:color 0.3s ease ;
+}
+a:hover {
+  color: #360616;
+  text-decoration: none;
+}
+h2 {
+	color: #5e0f36;
+	font-size: 30px;
+	letter-spacing: 4px;
+	line-height: 27px;
+}
+.container {
+    background: #b6636f;
+    width: 700px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+.card-pink {
+    background: #934651;
+    padding: 40px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    text-align: center;
+}
+
+@media (max-width:960px)
+.container{
+    width:700px
+}
+@media (max-width:720px)
+.container{
+    width:500px
+}
+@media (max-width:540px)
+.container{
+    width:300px
+}
+
+.btn-purple {
+ background-color:#731736 ;
+ color: white;
+ padding: 15px 20px;
+ border-radius:6px;
+}
+.btn-purple:hover{
+ background-color:lightpink ;
+ color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+#introduction p {
+margin-bottom: 40px;
+}
